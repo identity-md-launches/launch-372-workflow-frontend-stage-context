@@ -1,0 +1,18 @@
+
+> milestone-fund-web@1.0.0 build
+> node scripts/prepare.mjs && vite build && node scripts/manifest.mjs
+
+Verified LaunchToken ABI: 66c0725e9072e2c383f59b9a3baa620d857711ec96837623ad2372c434b83f07
+Verified MilestoneFund ABI: b79418d5d731169b80268436b8a0fa324a514af251f4e8fe4c0d7c0b2af233f8
+vite v8.3.1 building client environment for production...
+transforming...
+✓ 725 modules transformed.
+rendering chunks...
+computing gzip size...
+../dist/index.html                   0.70 kB │ gzip:   0.41 kB
+../dist/assets/index-CFzvMBaq.css   17.07 kB │ gzip:   4.27 kB
+../dist/assets/ccip-C-8hdsGh.js      2.84 kB │ gzip:   1.31 kB
+../dist/assets/index-DcSvAoBl.js   600.24 kB │ gzip: 180.98 kB
+
+✓ built in 581ms
+Manifest verified: 7 assets, 639459 bytes; configuration bound to 5ac8f1fd4d5562312160e8f180f9546a25b7b0d5

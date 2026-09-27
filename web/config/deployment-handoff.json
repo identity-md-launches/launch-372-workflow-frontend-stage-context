@@ -1,0 +1,51 @@
+{
+  "chainId": 11155111,
+  "repoUrl": "https://github.com/identity-md-launches/launch-299-milestonefund",
+  "version": 1,
+  "launchId": "1cbd2564-52c1-46a7-acb1-1c85de90811b",
+  "manifest": {
+    "kind": "evm_project",
+    "pool": {
+      "fee": 3000,
+      "tickSpacing": 60,
+      "initialPrice": "79228162514264337593543950336",
+      "pairedCurrency": "0x0000000000000000000000000000000000000000"
+    },
+    "notes": "Sepolia (11155111) project-factory launch. LaunchToken is defined in src/LaunchToken.sol. MilestoneFund is defined in src/MilestoneFund.sol and its nonpayable constructor stores the launch token as its immutable working currency. It requires no initial token balance or initialization calls and has no owner, admin or upgrade path. The factory supplies the LP and MerkleDistributor. The pool pairs TRNC with native ETH and has no hook; initialPrice is decimal sqrtPriceX96, with the effective opening price derived from the pinned policy when initialMarketCapWei is specified. Deposits require ERC-20 approval. A majority across multiple wallets can approve tranches, including wallets controlled by a creator; each release requires its own three-day grace period for backers to rage-quit. Services handle policy, signed artifact linkage, admission and deployment.",
+    "token": {
+      "name": "Tranche",
+      "symbol": "TRNC",
+      "contract": "LaunchToken",
+      "decimals": 18
+    },
+    "contracts": [
+      {
+        "contract": "MilestoneFund",
+        "constructorArgs": [
+          "$token"
+        ]
+      }
+    ]
+  },
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "txHash": "0xa5c078fa422d638ee7d7346cb6e02518a7711a666c273aa916dbcddb1d7b9c86",
+      "abiHash": "66c0725e9072e2c383f59b9a3baa620d857711ec96837623ad2372c434b83f07",
+      "address": "0x31a6f0ee61d3f773b3e047d77dba0631b81d5cd0",
+      "blockNumber": 11791443,
+      "creationCodeHash": "dfc879af0a923050ae23906e3dbe5a1f8ab687f7a056743aa4366644ae42bcbf"
+    },
+    {
+      "name": "MilestoneFund",
+      "txHash": "0xa5c078fa422d638ee7d7346cb6e02518a7711a666c273aa916dbcddb1d7b9c86",
+      "abiHash": "b79418d5d731169b80268436b8a0fa324a514af251f4e8fe4c0d7c0b2af233f8",
+      "address": "0x5b734e7962f8fec2207f4a1b5e280432315bb2b6",
+      "blockNumber": 11791443,
+      "creationCodeHash": "aadbcad8cbb5395f9296b936ee33d5a9bba95f427cf4fd3086b0289e035cd30c"
+    }
+  ],
+  "sourceCommit": "5ac8f1fd4d5562312160e8f180f9546a25b7b0d5",
+  "abiInstructions": "Build ABIs from this exact source commit; compare canonicalKeccak(abi) with abiHash. Verify deployed code on the stated chain before enabling transactions.",
+  "attestationHash": "42e25f2e4e53118d7e103795a406ce2db0e07b5602cb626e38fb77549a59509c"
+}

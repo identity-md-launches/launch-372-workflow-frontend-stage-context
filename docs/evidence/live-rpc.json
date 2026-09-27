@@ -1,0 +1,67 @@
+{
+  "observedAt": "2026-09-27T07:28:26.229Z",
+  "readOnly": true,
+  "endpoints": [
+    {
+      "endpoint": "https://ethereum-sepolia-rpc.publicnode.com",
+      "result": "PASS",
+      "chainId": 11155111,
+      "blockNumber": 11791837,
+      "contracts": [
+        {
+          "name": "LaunchToken",
+          "address": "0x31a6f0ee61d3f773b3e047d77dba0631b81d5cd0",
+          "codeBytes": 1739
+        },
+        {
+          "name": "MilestoneFund",
+          "address": "0x5b734e7962f8fec2207f4a1b5e280432315bb2b6",
+          "codeBytes": 4938
+        }
+      ],
+      "tokenBinding": "0x31A6f0ee61D3f773B3e047D77dBA0631b81D5CD0",
+      "raiseCount": "0"
+    },
+    {
+      "endpoint": "https://rpc.sepolia.ethpandaops.io",
+      "result": "PASS",
+      "chainId": 11155111,
+      "blockNumber": 11791837,
+      "contracts": [
+        {
+          "name": "LaunchToken",
+          "address": "0x31a6f0ee61d3f773b3e047d77dba0631b81d5cd0",
+          "codeBytes": 1739
+        },
+        {
+          "name": "MilestoneFund",
+          "address": "0x5b734e7962f8fec2207f4a1b5e280432315bb2b6",
+          "codeBytes": 4938
+        }
+      ],
+      "tokenBinding": "0x31A6f0ee61D3f773B3e047D77dBA0631b81D5CD0",
+      "raiseCount": "0"
+    },
+    {
+      "endpoint": "https://sepolia.rpc.sentio.xyz",
+      "result": "PASS",
+      "chainId": 11155111,
+      "blockNumber": 11791837,
+      "contracts": [
+        {
+          "name": "LaunchToken",
+          "address": "0x31a6f0ee61d3f773b3e047d77dba0631b81d5cd0",
+          "codeBytes": 1739
+        },
+        {
+          "name": "MilestoneFund",
+          "address": "0x5b734e7962f8fec2207f4a1b5e280432315bb2b6",
+          "codeBytes": 4938
+        }
+      ],
+      "tokenBinding": "0x31A6f0ee61D3f773B3e047D77dBA0631b81D5CD0",
+      "raiseCount": "0"
+    }
+  ],
+  "result": "PASS"
+}

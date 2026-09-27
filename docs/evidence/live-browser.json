@@ -1,0 +1,10 @@
+{
+  "observedAt": "2026-09-27T07:40:28.255Z",
+  "readOnly": true,
+  "mocked": false,
+  "consoleErrors": [],
+  "failures": [],
+  "result": "PASS",
+  "status": "Live reads · block 11,791,897\nRefresh state\n↻",
+  "emptyState": true
+}

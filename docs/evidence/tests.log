@@ -1,0 +1,56 @@
+
+> milestone-fund-web@1.0.0 test
+> node --test tests/domain.test.mjs && node tests/browser.mjs
+
+TAP version 13
+# Subtest: release requires strictly over 50% and an inclusive three-day boundary
+ok 1 - release requires strictly over 50% and an inclusive three-day boundary
+  ---
+  duration_ms: 2.434919
+  type: 'test'
+  ...
+# Subtest: refund estimate preserves full funding shares and last-backer remainder
+ok 2 - refund estimate preserves full funding shares and last-backer remainder
+  ---
+  duration_ms: 0.493962
+  type: 'test'
+  ...
+# Subtest: amounts reject rounding, exponents, negative, zero, and uint256 overflow
+ok 3 - amounts reject rounding, exponents, negative, zero, and uint256 overflow
+  ---
+  duration_ms: 1.852338
+  type: 'test'
+  ...
+# Subtest: raise split and funding duration enforce contract boundaries
+ok 4 - raise split and funding duration enforce contract boundaries
+  ---
+  duration_ms: 2.880107
+  type: 'test'
+  ...
+1..4
+# tests 4
+# suites 0
+# pass 4
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 567.873612
+PASS Read-only state; raise list, chunked event history from deployment block, and subpath asset loading
+PASS Wallet connect; wrong-network guard; 4902 add-chain parameters and switch retry
+PASS Creator cannot approve/deposit into their own raise
+PASS Precision and balance validation, explicit approval gating, review dismissal/focus return, and wallet rejection
+PASS Exact ERC-20 approval followed by deposit; correct ABI/address/arguments and receipt-driven balance/history refresh
+PASS 50% and grace-period release guards; once-per-tranche vote; simulation revert blocks signature; release resets vote/grace
+PASS Rage-quit amount/consequence review and creator pull withdrawal, with state refresh
+PASS Open-raise validation and 30/30/40, 14-day calldata; all seven primary actions simulated before signing
+PASS Wallet account and chain-change events refresh reads and disable writes
+PASS Chromium renders at 1440, 880, 390 and 320px; no horizontal overflow; axe WCAG A/AA checks pass
+PASS 200% text-size reflow, reduced motion, keyboard dialog focus trap/return and computed contrast pairs
+PASS Empty funding board and missing-wallet recovery copy
+PASS RPC chain mismatch fails closed
+PASS Missing deployed code fails closed
+PASS Token binding mismatch fails closed
+PASS Tampered ABI rejected before application/wallet initialization
+PASS Tampered deployment manifest rejected by build metadata digest
+PASS Raise pagination loads all IDs through contract views

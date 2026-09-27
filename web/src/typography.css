@@ -1,0 +1,8 @@
+:root {
+  --font-body: 'Inter', 'Segoe UI', Arial, sans-serif;
+  --font-display: 'Georgia', 'Times New Roman', serif;
+  --text-section: 1.9rem;
+  --text-heading: 1.2rem;
+  --text-small: 0.875rem;
+  --text-caption: 0.75rem;
+}

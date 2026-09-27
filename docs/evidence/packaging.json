@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "budgetBytes": 8388608,
+  "measuredCompleteBundleBytes": 2267343,
+  "measuredScratchSnapshotCommit": "e869b448380c344ad7b9858545c7a10ee27a8a99",
+  "completeGitHistory": true,
+  "sourceAndExportMatchFinalDeliverable": true,
+  "note": "Measurement precedes adding this packaging record and refreshing the delivery inventory. The final scratch bundle is rebuilt and size-checked again after those documentation-only additions.",
+  "checkoutCommit": "blocked: .git/index.lock is on a read-only filesystem",
+  "scratchBundle": "test/scratch/submission.bundle (verification scaffolding, not submitted)",
+  "dependenciesOrCachesSubmitted": false
+}

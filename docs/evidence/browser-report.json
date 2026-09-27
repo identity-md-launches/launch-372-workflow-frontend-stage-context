@@ -1,0 +1,88 @@
+{
+  "generatedAt": "2026-09-27T07:42:48.199Z",
+  "browser": "153.0.8010.12",
+  "basePath": "/preview/",
+  "checks": [
+    "Read-only state; raise list, chunked event history from deployment block, and subpath asset loading",
+    "Wallet connect; wrong-network guard; 4902 add-chain parameters and switch retry",
+    "Creator cannot approve/deposit into their own raise",
+    "Precision and balance validation, explicit approval gating, review dismissal/focus return, and wallet rejection",
+    "Exact ERC-20 approval followed by deposit; correct ABI/address/arguments and receipt-driven balance/history refresh",
+    "50% and grace-period release guards; once-per-tranche vote; simulation revert blocks signature; release resets vote/grace",
+    "Rage-quit amount/consequence review and creator pull withdrawal, with state refresh",
+    "Open-raise validation and 30/30/40, 14-day calldata; all seven primary actions simulated before signing",
+    "Wallet account and chain-change events refresh reads and disable writes",
+    "Chromium renders at 1440, 880, 390 and 320px; no horizontal overflow; axe WCAG A/AA checks pass",
+    "200% text-size reflow, reduced motion, keyboard dialog focus trap/return and computed contrast pairs",
+    "Empty funding board and missing-wallet recovery copy",
+    "RPC chain mismatch fails closed",
+    "Missing deployed code fails closed",
+    "Token binding mismatch fails closed",
+    "Tampered ABI rejected before application/wallet initialization",
+    "Tampered deployment manifest rejected by build metadata digest",
+    "Raise pagination loads all IDs through contract views"
+  ],
+  "screenshots": [
+    "desktop-disconnected.png",
+    "desktop-connected.png",
+    "mobile-390-connected.png",
+    "mobile-320-connected.png",
+    "mobile-320-controls.png",
+    "keyboard-focus.png",
+    "review-dialog.png"
+  ],
+  "consoleErrors": [],
+  "pageErrors": [],
+  "failedLocalRequests": [],
+  "contrast": [
+    {
+      "selector": ".hero-copy",
+      "foreground": "rgb(37, 61, 49)",
+      "background": "rgb(245, 244, 237)",
+      "ratio": 10.64
+    },
+    {
+      "selector": ".hero-copy > p:not(.eyebrow)",
+      "foreground": "rgb(86, 98, 83)",
+      "background": "rgb(245, 244, 237)",
+      "ratio": 5.83
+    },
+    {
+      "selector": ".primary",
+      "foreground": "rgb(255, 255, 255)",
+      "background": "rgb(24, 59, 49)",
+      "ratio": 12.29
+    },
+    {
+      "selector": ".raise-card dt",
+      "foreground": "rgb(86, 98, 83)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 6.43
+    },
+    {
+      "selector": ".badge.funding",
+      "foreground": "rgb(24, 59, 49)",
+      "background": "rgb(230, 237, 223)",
+      "ratio": 10.27
+    },
+    {
+      "selector": ".badge.voting",
+      "foreground": "rgb(112, 80, 13)",
+      "background": "rgb(251, 240, 220)",
+      "ratio": 6.54
+    },
+    {
+      "selector": ".steps-art > div:nth-child(1) > span",
+      "foreground": "rgb(24, 59, 49)",
+      "background": "rgb(202, 216, 191)",
+      "ratio": 8.24
+    },
+    {
+      "selector": ".steps-art > div:nth-child(2) > span",
+      "foreground": "rgb(24, 59, 49)",
+      "background": "rgb(154, 178, 142)",
+      "ratio": 5.34
+    }
+  ],
+  "result": "PASS"
+}
